@@ -1,0 +1,21 @@
+.democontainer {
+  width: 90%;
+  background-color: black;
+  position: relative;
+  top: 6rem;
+}
+
+.democontainer > p {
+  color: white;
+  padding: 1rem;
+}
+
+.description-img {
+  max-width: 800px;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center ;
+  align-items: center;
+  margin: 6rem auto
+}

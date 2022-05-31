@@ -1,0 +1,60 @@
+
+.container {
+    background-image: url("../../images/stardust.jpg");    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    right: 25%;
+    width: 50%;
+    height: 50%;
+    border-style: solid;
+    border-color: aliceblue;
+    border-width: 2px;
+    box-shadow: 0 2px 20px grey;
+}
+
+.inner_container {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: rgb(13, 16, 34);
+    position:relative;
+    top: 10%;
+    width: 75%;
+    height: 50%;
+    align-items: center;
+    left: 12%;
+}
+
+.boxes_container {
+    display: flex;
+    flex-direction:column;
+    margin-top: 10px;
+    gap: 10px;
+    max-width: 40rem;
+    position: relative;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+
+.btn {
+    background-color: rgb(35, 84, 28);
+    border-radius: 2rem;
+    width: 50%;
+    position: relative;
+    left: 25%;
+    font-size: 16px;
+    margin-top: 4rem;
+    border-style: solid;
+    border-color:rgb(210, 210, 191);
+    border-width: 2px;
+}
+
+.btn:hover {
+    background-color:rgb(21, 52, 17);
+    color:aliceblue
+}
