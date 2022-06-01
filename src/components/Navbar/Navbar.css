@@ -53,9 +53,11 @@ nav {
 
 @media screen and (max-width: 850px) {
 
-    nav {
-        overflow-x: clip;
+    html, body {
         position: fixed;
+        overflow-x: hidden;
+        height: 100%;
+        width: 100%;
     }
 
     .hamburger-toggle {
