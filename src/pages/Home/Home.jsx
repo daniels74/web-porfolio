@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import Footer from "../../components/Footer/Footer";
+//import Footer from "../../components/Footer/Footer";
 // import { Holdable } from "react-touch";
 // import { defineHold } from "react-touch";
 
@@ -27,10 +27,12 @@ const Home = () => {
         </p>
         <div className="home_buttons">
           <a href="/Projects">
-          <button
+            <button
               className={btn1 ? "home_btns-active" : "home_btns"}
               onTouchStart={togglebtn1}
-            >Projects</button>
+            >
+              Projects
+            </button>
           </a>
           <a href="/About">
             <button
@@ -42,7 +44,7 @@ const Home = () => {
           </a>
         </div>
       </div>
-      <Footer />
+      {/* <Footer />*/}
     </div>
   );
 };

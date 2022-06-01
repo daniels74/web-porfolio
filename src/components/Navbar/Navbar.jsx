@@ -1,40 +1,50 @@
-import React from 'react'
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import "./Navbar.css"
+import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import "./Navbar.css";
 //import { Link } from 'react-router-dom';
 
 const Navbar = () => {
+  const [navLinkOpen, navLinkToggle] = React.useState(false);
 
-const [navLinkOpen, navLinkToggle] = React.useState(false);
-
-function handleNavLinksToggle() {
-    navLinkToggle(!navLinkOpen)
-}
+  function handleNavLinksToggle() {
+    navLinkToggle(!navLinkOpen);
+  }
 
   return (
-    <nav>
+    
+      <nav>
         <div className="logo">
-            <a href="/" className="puff-in-center">
-                <FontAwesomeIcon icon="fa-solid fa-user-astronaut" />
-                Daniel Flores Hurtado
+          <a href="/" className="puff-in-center">
+            {/* <div className="logocombo"> */}
+            <FontAwesomeIcon icon="fa-solid fa-user-astronaut" />
+            <h5>Daniel Flores Hurtado</h5>
+            {/* </div> */}
+          </a>
+        </div>
+        <ul className={navLinkOpen ? "navlinks active" : "navlinks"}>
+          <li className="link">
+            <a href="About" className="fade-in">
+              About
             </a>
-        </div>
-        <ul className= {navLinkOpen ? "navlinks active" : "navlinks"}>
-            <li className="link">
-                <a href="About" className="fade-in">About</a>
-            </li>
-            <li className="link">
-                <a href="Projects" className="fade-in">Projects</a>
-            </li>
-            <li className="link">
-                <a href="Contact" className="fade-in">Contact</a>
-            </li>
+          </li>
+          <li className="link">
+            <a href="Projects" className="fade-in">
+              Projects
+            </a>
+          </li>
+          <li className="link">
+            <a href="Contact" className="fade-in">
+              Contact
+            </a>
+          </li>
         </ul>
-        <div className="hamburger-toggle" onClick={handleNavLinksToggle} >
-            <FontAwesomeIcon icon={"bars"}></FontAwesomeIcon>
-        </div>
-    </nav>
-  )
-}
 
-export default Navbar
+        <div className="hamburger-toggle" onClick={handleNavLinksToggle}>
+          <FontAwesomeIcon icon={"bars"}></FontAwesomeIcon>
+        </div>
+      </nav>
+    
+  );
+};
+
+export default Navbar;

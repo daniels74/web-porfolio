@@ -11,6 +11,21 @@
     background-color: rgb(10, 26, 52);
 }
 
+.card-touch {
+    overflow: hidden;
+    box-shadow: 0 2px 20px black;
+    border-radius: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: transform 200ms ease-in;
+    margin-top: 3rem;
+    background-color: rgb(10, 26, 52);
+    transform: scale(1.05);
+    box-shadow: 0 2px 20px grey;
+}
+
 .card_img {
     height: 12rem;
     width: 100%;
