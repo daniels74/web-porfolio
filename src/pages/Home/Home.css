@@ -1,73 +1,62 @@
-.main {
-    /* background-image: radial-gradient(at center center, #00000070 0%, #01060b7c 100%), 
-    url("../../images/royalblue.jpg"); */
-    /* background-image: url("../../images/royalblue.jpg");
-    background-repeat: repeat-y;
+.home-container {
     height: 100vh;
-    background-size: cover;
-    background-position: center;
-    background-attachment: scroll;
-    background-clip: content-box;
-    background-origin: content-box;
-     */
 }
 
 .home {
-    max-width: 800px;
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center ;
-    align-items: center;
-    margin: 0 auto;
+  max-width: 800px;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin: 0rem 1rem;
 }
 
 .home > h1 {
-    font-size: 64px;
-    color: white;
-    font-weight: normal;
-    letter-spacing: 3px;
+  font-size: 64px;
+  color: white;
+  font-weight: normal;
+  letter-spacing: 3px;
+  margin-top: 1rem;
 }
 
 .home > h2 {
-    font-size: 28px;
-    color: white;
-    font-weight: lighter;
-    letter-spacing: 4px;
+  font-size: 28px;
+  color: white;
+  font-weight: lighter;
+  letter-spacing: 4px;
+  margin-top: 1rem;
 }
 
 .home > p {
-    color: white;
-    text-align: center;
-    font-size: 16px;
-    margin-top: 10px;
-    margin-bottom: 50px;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  margin-top: 1rem;
 }
 
-.home_btn-Projects {
-    border: white solid 1px;
-    background-color: transparent;
-    color: white;
-    padding: 10px 50px;
-    margin: 0 10px;
+.home_btns {
+  border: white solid 1px;
+  background-color: transparent;
+  color: white;
+  padding: 10px 50px;
+  margin: 0 10px;
 }
 
-.home_btn-Projects:hover {
-    transform: scale(1.05);
-    color:rgb(0, 0, 0);
-    background-color:rgb(26,108, 122);
+.home_btns-active {
+  border: white solid 1px;
+  background-color: transparent;
+  color: white;
+  padding: 10px 50px;
+  margin: 0 10px;
+  background-color: rgb(26, 108, 122);
 }
 
-.home_btn-About {
-    border: white solid 1px;
-    background-color: transparent;
-    color: white;
-    padding: 10px 50px;
-    margin: 0 10px;
-}
-
-.home_btn-About:hover {
-    transform: scale(1.05);
-    color:rgb(0, 0, 0);
-    background-color:rgb(26,108, 122);
+.home_btns:hover {
+  transform: scale(1.05);
+  color: rgb(0, 0, 0);
+  background-color: rgb(26, 108, 122);
 }
