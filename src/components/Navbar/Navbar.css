@@ -6,7 +6,7 @@ nav {
     width: 100%;
     align-items: center;
     z-index: 999;
-    overflow-x: clip;
+    /* overflow-x:scroll; */
 }
 
 .logo {
@@ -22,10 +22,6 @@ nav {
     display: flex;
     flex-direction: row;
     gap: 1rem;
-}
-
-.bar-con {
-  overflow-x: hidden;
 }
 
 .navlinks {
@@ -57,8 +53,8 @@ nav {
 
 @media screen and (max-width: 850px) {
 
-    html,body {
-        overflow-x: hidden;
+    nav {
+        overflow-x: clip;
     }
 
     .hamburger-toggle {
