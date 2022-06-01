@@ -1,5 +1,8 @@
 .home-container {
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .home {
@@ -9,8 +12,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  margin: 0rem 1rem;
 }
 
 .home > h1 {
