@@ -7,7 +7,7 @@ const blocks = (props) => {
       <p>
         {props.description}
       </p>
-      <img src={`../images/${props.img}`} className="description-img" alt="" />
+      <img src={`../images/${props.img0}/${props.img}`} className="description-img" alt="" />
     </div>
   );
 };
