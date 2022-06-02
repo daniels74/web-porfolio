@@ -2,27 +2,26 @@ const data = [
     {
         id: 1,
         img: "Capture.PNG",
-        description: "Use the make command to call upon the g++ builder, this will make our executable. make buildd"
+        img0: "pro5",
+        description: "make buildd"
     },
     {
         id:2,
         img: "Capture1.PNG",
-        description: "Again, use the make command, but this time to call the runn part of the makefile."
+        img0: "pro5",
+        description: "make runn"
     },
     {
         id:3,
         img: "Capture2.PNG",
-        description: "Type a number."
+        img0: "pro5",
+        description: "Enter choice C  and then type MLK-Dream.txt be sure to add the .txt"
     },
     {
         id:4,
         img: "Capture3.PNG",
-        description: "Answer the questions using numbers only."
-    },
-    {
-        id:5,
-        img: "Capture4.PNG",
-        description: "Choose a grouping of characters. Press enter and obtain result."
+        img0: "pro5",
+        description: "A new file should be produced with the same name as the file that was copressed with .huf added at the end. This file is shown both in binary and in normal view."
     }
 
 ]

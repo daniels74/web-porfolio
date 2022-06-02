@@ -1,6 +1,7 @@
 .democontainer {
   width: 90%;
   background-color: black;
+  border-radius: 1rem;
   position: relative;
   top: 6rem;
   display: flex;
