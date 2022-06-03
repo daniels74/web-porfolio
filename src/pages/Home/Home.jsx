@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-//import Footer from "../../components/Footer/Footer";
+import Footer from "../../components/Footer/Footer";
 // import { Holdable } from "react-touch";
 // import { defineHold } from "react-touch";
 
@@ -44,7 +44,7 @@ const Home = () => {
           </a>
         </div>
       </div>
-      {/* <Footer />*/}
+      <Footer />
     </div>
   );
 };
