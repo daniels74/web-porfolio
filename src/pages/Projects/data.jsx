@@ -9,7 +9,7 @@ const data = [
     },
     {
         id:2,
-        img: "pro3.PNG",
+        img: "pro2.PNG",
         title:"Animated Bar Chart", 
         description:"Uses a linked list concept to generate a time grid of the most popular cites from 1800 to 2018. ",
         link:"https://github.com/fadedDiamond74/AnimatedBarChart.git",
@@ -17,7 +17,7 @@ const data = [
     },
     {
         id:3,
-        img: "pro2.PNG", 
+        img: "pro3.PNG", 
         title:"Escape The Labrniyth", 
         description:"A non-visual simulator of a maze, solved by discovering 3 items scattered around a random generated maze.",
         link:"https://github.com/fadedDiamond74/EscapeTheLabrniyth.git",
