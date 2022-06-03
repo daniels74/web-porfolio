@@ -1,8 +1,6 @@
 import React from "react";
 import "./Home.css";
 import Footer from "../../components/Footer/Footer";
-// import { Holdable } from "react-touch";
-// import { defineHold } from "react-touch";
 
 const Home = () => {
   const [btn1, setBtn1] = React.useState(false);
@@ -19,8 +17,8 @@ const Home = () => {
   return (
     <div className="home-container">
       <div className="home">
-        <h2>Hello and Welcome Employer</h2>
-        <h1>This is my Porfolio</h1>
+        <h1>Daniel Flores Hurtado</h1>
+        <h2>Web Developer</h2>
         <p>
           You can view my projects by clicking the projects button, or you can
           learn about me in general by clicking about.

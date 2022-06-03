@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./Navbar.css";
-//import { Link } from 'react-router-dom';
+import {FaSketch} from "react-icons/fa"
 
 const Navbar = () => {
   const [navLinkOpen, navLinkToggle] = React.useState(false);
@@ -15,10 +15,8 @@ const Navbar = () => {
       <nav>
         <div className="logo">
           <a href="/" className="puff-in-center">
-            {/* <div className="logocombo"> */}
-            <FontAwesomeIcon icon="fa-solid fa-user-astronaut" />
-            <h5>Daniel Flores Hurtado</h5>
-            {/* </div> */}
+            <FaSketch/>
+            <h5>Home</h5>
           </a>
         </div>
         <ul className={navLinkOpen ? "navlinks active" : "navlinks"}>
