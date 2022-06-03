@@ -3,7 +3,7 @@ const data = [
         id: 1,
         img: "Capture.PNG",
         img0: "pro3",
-        description: "make buildd"
+        description: "make build_tests"
     },
     {
         id:2,
