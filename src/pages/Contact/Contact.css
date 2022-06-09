@@ -1,4 +1,6 @@
-
+.main {
+    height: 100vh;
+}
 .container {
     background-image: url("../../images/stardust.jpg");    
     background-size: cover;
