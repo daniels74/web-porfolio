@@ -1,10 +1,10 @@
 import React from "react";
 import "./About.css";
 import myface from "../../images/pic.jpg";
+import Footer from "../../components/Footer/Footer"
 
 const About = () => {
   return (
-    <div className="main">
       <div className="about-content">
         <div className="box_container">
           <div className="seg">
@@ -48,8 +48,11 @@ const About = () => {
             </div>
           </div>
         </div>
+
+        <div className="footer-container">
+        <Footer/>
+        </div>
       </div>
-    </div>
   );
 };
 
