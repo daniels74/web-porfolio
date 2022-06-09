@@ -36,6 +36,11 @@ const Footer = () => {
                         PaintZoneOne
                     </a>
                 </li>
+                <li>
+                    <a href="https://project-neptune.vercel.app/">
+                        Landscapes
+                    </a>
+                </li>
             </ul>
         </div>
     </footer>
