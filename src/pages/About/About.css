@@ -1,3 +1,7 @@
+.main {
+    height: 100vh;
+}
+
 .about-content {
     display: flex;
     flex-direction: column;
