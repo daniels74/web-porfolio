@@ -2,7 +2,7 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
-//import Footer from "./components/Footer/Footer"
+import Footer from "./components/Footer/Footer"
 import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import Projects from "./pages/Projects/Projects";
@@ -31,6 +31,7 @@ function App() {
         <Route exact path="/DemoPro5" element={<DemoPro5 />} />
         <Route exact path="/DemoPro6" element={<DemoPro6 />} />
       </Routes>
+      <Footer/>
     </>
   );
 }

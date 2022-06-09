@@ -1,6 +1,5 @@
 import React from "react";
 import "./Home.css";
-import Footer from "../../components/Footer/Footer";
 
 const Home = () => {
   const [btn1, setBtn1] = React.useState(false);
@@ -42,7 +41,7 @@ const Home = () => {
           </a>
         </div>
       </div>
-      <Footer />
+    
     </div>
   );
 };
