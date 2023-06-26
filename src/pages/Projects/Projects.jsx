@@ -1,11 +1,20 @@
 import React from 'react'
 import "./Projects.css"
 import Card from "./Card"
-import data from "./data"
+import allData from "./data"
 
 const Projects = () => {
-  
-  const projectsData = data.map(item => {
+
+  const angularProjects = allData.angularProjects.map(item => {
+    return (
+      <Card
+        key={item.id}
+        {...item}
+      />
+    )
+  })
+
+  const projectsData = allData.data.map(item => {
     return (
       <Card
         key={item.id}
@@ -16,12 +25,22 @@ const Projects = () => {
 
   return (
     <div className="main">
-      <div className="projects">
-          <h1>C++</h1>
+      <div className="projects-exterior-container">
+        <div className="projects-inner-container">
+        <div className="project-title">
+            <h1>Angular</h1>
+          </div>
+          <div className="wrapper">
+            {angularProjects}
+          </div>
+          <div className="project-title">
+            <h1>C++</h1>
+          </div>
           <div className="wrapper">
             {projectsData}
           </div>
         </div>
+      </div>
     </div>
   )
 }

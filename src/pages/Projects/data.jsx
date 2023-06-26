@@ -49,4 +49,16 @@ const data = [
 
 ]
 
-export default data
+const angularProjects = [
+    {
+        id:1,
+        vid: "vid1.mp4", 
+        title:"Movie App", 
+        description:"A movie application that allows users to watch movie trailers, if they have proper privledges.",
+        demo: "DemoPro6"
+    }
+]
+
+const allData = {data, angularProjects}
+
+export default allData;
