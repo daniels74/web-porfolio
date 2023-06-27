@@ -7,7 +7,11 @@ const blocks = (props) => {
       <p>
         {props.description}
       </p>
-      <img src={`../images/${props.img0}/${props.img}`} className="description-img" alt="" />
+      {props.img0 ? 
+      (<img src={`../images/${props.img0}/${props.img}`} className="description-img" alt="" />)
+    :
+      (<video src={`./vids/${props.vidPath}/${props.vid}`} className="description-img" alt="" controls autoPlay="true" loop="true" typeof="video/mp4"/>)
+    }
     </div>
   );
 };

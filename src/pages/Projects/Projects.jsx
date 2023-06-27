@@ -5,6 +5,15 @@ import allData from "./data"
 
 const Projects = () => {
 
+  const reactProjects = allData.reactProjects.map(item => {
+    return (
+      <Card
+        key={item.id}
+        {...item}
+      />
+    )
+  })
+
   const angularProjects = allData.angularProjects.map(item => {
     return (
       <Card
@@ -24,9 +33,15 @@ const Projects = () => {
   })
 
   return (
-    <div className="main">
+    <div className="main-container">
       <div className="projects-exterior-container">
         <div className="projects-inner-container">
+        <div className="project-title">
+            <h1>React</h1>
+          </div>
+          <div className="wrapper">
+            {reactProjects}
+          </div>
         <div className="project-title">
             <h1>Angular</h1>
           </div>

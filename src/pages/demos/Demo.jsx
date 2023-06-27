@@ -6,19 +6,20 @@ const Demo = (props) => {
 
   const theblock = props.data.map(item => {
     return (
-      <Blocks 
-      item={item.id}
-      {...item}
+      <Blocks
+        item={item.id}
+        {...item}
       />
     )
   })
 
   return (
+    <div className="main">
       <div className="demomain">
         {theblock}
       </div>
-      
-  
+    </div>
+
   )
 }
 
