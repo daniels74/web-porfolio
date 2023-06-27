@@ -1,4 +1,12 @@
+.main {
+    min-height: 110vh;
+    height: auto;
+    width: 100%;
+}
+
 .demomain {
+    /* background-color: red; */
+    margin-bottom: 10rem;
     display: flex;
     flex-direction: column;
     align-items: center;

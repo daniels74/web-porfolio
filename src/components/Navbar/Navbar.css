@@ -1,7 +1,7 @@
 nav {
     display: flex;
     justify-content: space-around;
-    min-height: 8vh;
+    min-height: 10%;
     position: absolute;
     width: 100%;
     align-items: center;

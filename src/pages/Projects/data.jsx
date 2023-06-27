@@ -52,13 +52,30 @@ const data = [
 const angularProjects = [
     {
         id:1,
-        vid: "vid1.mp4", 
+        vid: "movieApp/vid1.mp4", 
         title:"Movie App", 
         description:"A movie application that allows users to watch movie trailers, if they have proper privledges.",
-        demo: "DemoPro6"
+        demo: "movieApp"
     }
 ]
 
-const allData = {data, angularProjects}
+const reactProjects = [
+    {
+        id: 1,
+        vid: "cryptoInfoApp/cryptoInfoApp.mp4",
+        title:"WiseUp V1", 
+        description:"An informative website on the top trending cryptocurrencies and trending news.",
+        demo: "cryptoInfoApp"
+    },
+    {
+        id: 2,
+        vid: "wiseUp/wiseupvid.mp4",
+        title:"WiseUp V2", 
+        description:"An informative website on the top trending cryptocurrencies and trending news.",
+        demo: "wiseUp"
+    }
+]
+
+const allData = {data, angularProjects, reactProjects}
 
 export default allData;
