@@ -15,10 +15,13 @@
 }
 
 .seg {
+    height: 100%;
+    width: 100%;
     display: flex;
     position: relative;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content: space-around;
 }
 
 .seg > p {
@@ -30,7 +33,7 @@
 .about-img {
     width: 30%;
     border-radius: .5rem;
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
 }
 
 .expo-container {
