@@ -1,7 +1,7 @@
 const data = [
     {
         id: 1,
-        vid: "wiseUp.mp4",
+        vid: "wiseupvid.mp4",
         vidPath: "wiseUp",
         description: "Landing Page"
     },  

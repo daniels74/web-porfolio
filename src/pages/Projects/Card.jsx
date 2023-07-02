@@ -17,7 +17,7 @@ const Card = (props) => {
           // <video src={`../vids/${props.vid}`} alt=""></video>
           <video width="100%" height="auto" controls autoPlay="true" loop="true">
             <source src={`./vids/${props.vid}`} type="video/mp4"/>
-            {/* <source src={vid1} type="video/mp4"/> */}
+            {/* <source src={`../../vids/${props.vid}`} type="video/mp4"/> */}
           </video>
         }
 
