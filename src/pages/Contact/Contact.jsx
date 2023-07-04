@@ -27,9 +27,9 @@ const Contact = () => {
           <div className="inner_container">
             <div className="boxes_container">
               <label>Full Name</label>
-              <input type="text" className="full_name" placeHolder="Full Name"/>
+              <input type="text" className="full-name" placeholder="Full Name"/>
               <label className="message">Message</label>
-              <textarea type="text" className="full_name" rows="4" placeHolder="Enter message"/>
+              <textarea type="text" className="text-message" rows="4" placeholder="Enter message"/>
               <input type="submit" value="Submit" className="btn" />
             </div>
           </div>

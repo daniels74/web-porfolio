@@ -47,19 +47,22 @@
     background-color: transparent;
 }
 
-.full_name {
-    width: 100%
+.full-name {
+    width: 100%;
+    height: 15%;
 }
 
-.text_message {
+.text-message {
     width: 100%;
+    height: 50%;
 }
 
 .btn {
     background-color: rgb(6, 145, 140);
     border-radius: 1rem;
     font-size: 10px;
-    width: 50%;
+    height: 15%;
+    width: 20%;
     margin-top: 2rem;
     border-style: solid;
     border-color:rgb(210, 210, 191);
