@@ -17,8 +17,7 @@ const About = () => {
               emmense ammount of curiousity in the storage and usage of data. I
               spend my time learning about web development, but I also have an
               intrest in the world of cryptocurrency and other forms of
-              investments. It is for that reason that I also look forward to
-              contributing to a website that might involve cryptocurrency.
+              investments.
             </p>
           </div>
         </div>

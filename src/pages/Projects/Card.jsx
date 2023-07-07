@@ -25,9 +25,9 @@ const Card = (props) => {
         <p className="card_description">{props.description}</p>
       </div>
       <div className="card-btns">
-        <a href={props.link}>
+        {/* <a href={props.link}>
           <button className="card_btn">Source Code</button>
-        </a>
+        </a> */}
         <a href={props.demo}>
           <button className="card_btn">View Demo</button>
         </a>

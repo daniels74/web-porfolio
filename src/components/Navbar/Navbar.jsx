@@ -27,7 +27,7 @@ const Navbar = () => {
           </li>
           <li className="link">
             <a href="Projects" className="fade-in">
-              Projects
+              Personal Projects
             </a>
           </li>
           <li className="link">
