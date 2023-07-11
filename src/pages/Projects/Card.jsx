@@ -14,10 +14,7 @@ const Card = (props) => {
         {props.img ?
           <img className="card_img" src={`../images/${props.img}`} alt="" />
           :
-          // <video src={`../vids/${props.vid}`} alt=""></video>
-          <video src={`./vids/${props.vid}`} width="100%" height="auto" controls autoPlay="true" loop="true">
-            {/* <source src={`./vids/${props.vid}`} type="video/mp4"/> */}
-            {/* <source src={`../../vids/${props.vid}`} type="video/mp4"/> */}
+          <video src={`./vids/${props.vid}`} type="video/mp4" width="100%" height="auto" controls autoPlay="true" loop="true">
           </video>
         }
 

@@ -17,6 +17,7 @@ import DemoPro5 from "./pages/demos/DemoPro5/DemoPro5";
 import DemoPro6 from "./pages/demos/DemoPro6/DemoPro6";
 import "./components/FontawesomeIcons";
 import WiseUp from "./pages/demos/wiseUp/WiseUp";
+import NotebookApp from "./pages/demos/notebookApp/NotebookApp";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route exact path="/Projects" element={<Projects />} />
         <Route exact path="/Contact" element={<Contact />} />
         <Route exact path="/movieApp" element={<MovieApp />} />
+        <Route exact path="/notebookApp" element={<NotebookApp />} />
         <Route exact path="/cryptoInfoApp" element={<CryptoInfoApp />} />
         <Route exact path="/wiseUp" element={<WiseUp />} />
         <Route exact path="/DemoPro1" element={<DemoPro1 />} />

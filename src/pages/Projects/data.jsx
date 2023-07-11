@@ -56,7 +56,14 @@ const angularProjects = [
         title:"Movie App", 
         description:"A movie application that allows users to watch movie trailers, if they have proper privledges.",
         demo: "movieApp"
-    }
+    },
+    {
+        id:2,
+        img: "notebookApp/notebookApp.png", 
+        title:"Notebook App", 
+        description:"A simple notebook app that allows users to post, delete, and update they're notes.",
+        demo: "notebookApp"
+    },    
 ]
 
 const reactProjects = [

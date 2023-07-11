@@ -17,6 +17,12 @@ const data = [
         vidPath: "movieApp",
         description: "Selecting a movie"
     },  
+    {
+        id: 4,
+        img0: "movieApp",
+        img: "youtubetrailers.png",
+        description: "Youtube trailers"
+    }
 
 ]
 
