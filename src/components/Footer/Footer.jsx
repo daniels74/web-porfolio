@@ -51,7 +51,7 @@ const Footer = () => {
                     }}>
                         <Box component='a' sx={{
                             color: "lightblue"
-                        }} href="https://cold-jupiter-d4aac7c2f1f0.herokuapp.com/user/28">
+                        }} href="https://cold-jupiter-d4aac7c2f1f0.herokuapp.com">
                             CryptoZapp
                         </Box>
                     </Box>
